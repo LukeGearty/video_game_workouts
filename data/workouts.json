@@ -1,0 +1,336 @@
+[
+  {
+    "workoutTitle": "Kratos Leg Day",
+    "character": "Kratos",
+    "workoutDescription": "Build strong legs like Kratos",
+    "text": [
+      "Squats: 3 x 3 - 5",
+      "Leg Press/Hack Squat: 2 x 6 - 10",
+      "Single Leg Squats: 2 x 6 - 10",
+      "Romanian Deadlifts: 3 x 5 - 8",
+      "Back Extensions: 2 x 6 - 10",
+      "Lying Leg Curls: 2 x 6 - 10",
+      "Calf Raises: 2 x 6 - 10"
+    ],
+    "difficulty": "Medium",
+    "slug": "kratos-leg-day"
+  },
+  {
+    "workoutTitle": "Mario Jump Workout",
+    "character": "Mario",
+    "workoutDescription": "Jump around like Mario",
+    "text": [
+      "Two foot jumps: to failure",
+      "split squats: 3 x 10"
+    ],
+    "difficulty": "Easy",
+    "slug": "mario-jump-workout"
+  },
+  {
+    "workoutTitle": "Power Suit Workout",
+    "character": "Samus Aran",
+    "workoutDescription": "Agility, core strength, and explosive movement like the intergalactic bounty hunter herself",
+    "text": [
+      "20 Jump rope or simulated rope hops",
+      "10 Arm circles",
+      "10 Inchworm walkouts",
+      "10 Glute Bridges",
+      "10 Lateral lunges",
+      "5 Burpees",
+      "V-ups or tuck crunches: 20 reps",
+      "banded punches or explosive push ups: 15 each arm",
+      "inverted rows or bent-over rows: 12 reps",
+      "jump squats: 15 reps",
+      "jumping lunges or step-back lunges: 10 each leg",
+      "plank with alternating shoulder taps: 1 minute"
+    ],
+    "difficulty": "Medium",
+    "slug": "power-suit-workout"
+  },
+  {
+    "workoutTitle": "Spinning Kick Workout",
+    "character": "Chun-Li",
+    "workoutDescription": "Lower-body power, explosive agility, balance, and fighter endurance.",
+    "text": [
+      "Warm Up: ",
+      "20 High Knees",
+      "10 Hip Circles (each direction)",
+      "10 Arm swings + leg swings",
+      "10 air squats",
+      "10 Dynamic lunges",
+      "30 second shadow kicks",
+      "Main Workout: 3-5 rounds",
+      "flutter kicks + scissor variation: 30 sec",
+      "jump squats w/180° turn: 10 reps",
+      "Reverse Lunge, hold top knee 2 sec: 10 each leg",
+      "Wall Sit: 45-60 sec",
+      "Side Kicks: 10 each leg",
+      "Hollow Hold: 30-45 sec"
+    ],
+    "difficulty": "Medium",
+    "slug": "spinning-kick-workout"
+  },
+  {
+    "workoutTitle": "Master Sword Workout",
+    "character": "Link",
+    "workoutDescription": "Mobility, core strength, and full-body conditioning for any hero’s quest",
+    "text": [
+      "Dynamic Warm-Up: 5 mins jog or jump rope",
+      "Goblet Squats: 3 x 8",
+      "Push-Ups: 3 x 10-15",
+      "Pull-Ups (or rows): 3 x max reps",
+      "Plank with Reach: 3 x 30 sec",
+      "Lunges with Twist: 3 x 10 each side",
+      "Overhead Dumbbell Swings (Master Sword style): 3 x 12",
+      "Cooldown stretch: 5 mins"
+    ],
+    "difficulty": "Medium",
+    "slug": "master-sword-workout"
+  },
+  {
+    "workoutTitle": "Doom Slayer HIIT",
+    "character": "Doom Slayer",
+    "workoutDescription": "High-intensity training to tear through demons and fat alike",
+    "text": [
+      "Warm-Up: Jump rope 2 minutes",
+      "Circuit (4 Rounds, 30 sec on / 15 sec rest):",
+      "Burpees",
+      "Push-Ups",
+      "Jump Squats",
+      "Mountain Climbers",
+      "Kettlebell Swings or Dumbbell Snatches",
+      "Plank to Push-Up",
+      "Cooldown stretch + box breathing"
+    ],
+    "difficulty": "Hard",
+    "slug": "doom-slayer-hiit"
+  },
+  {
+    "workoutTitle": "Stealth Assassin Workout",
+    "character": "Solid Snake",
+    "workoutDescription": "Functional strength, stealthy mobility, and endurance under pressure",
+    "text": [
+      "Bear Crawls: 3 x 20 sec",
+      "Push-Ups: 3 x 12",
+      "Bodyweight Rows: 3 x 10",
+      "Step-Ups: 3 x 10 each leg",
+      "Wall Sits: 3 x 45 sec",
+      "Plank: 3 x 60 sec",
+      "Side Lunges: 3 x 10 each side",
+      "Cool Down: Forward fold, pigeon stretch, deep squat hold"
+    ],
+    "difficulty": "Medium",
+    "slug": "stealth-assassin-workout"
+  },
+  {
+    "workoutTitle": "Pikachu Plyo Blast",
+    "character": "Pikachu",
+    "workoutDescription": "Quick and electric bodyweight plyometrics to build speed and agility",
+    "text": [
+      "High Knees: 3 x 30 sec",
+      "Lateral Bounds: 3 x 10 each side",
+      "Tuck Jumps: 3 x 8",
+      "Plank Jacks: 3 x 20",
+      "Plyo Push-Ups: 3 x 10",
+      "Squat to Broad Jump: 3 x 6",
+      "Jump Rope Cooldown: 3 minutes"
+    ],
+    "difficulty": "Medium",
+    "slug": "pikachu-plyo-blast"
+  },
+  {
+    "workoutTitle": "Spartan Superset",
+    "character": "Master Chief",
+    "workoutDescription": "Heavy strength and endurance training worthy of a Spartan-II supersoldier",
+    "text": [
+      "Warm-Up: 5 mins dynamic full-body mobility",
+      "Superset 1: Deadlifts + Push-Ups – 3 x (5 Deadlifts + 15 Push-Ups)",
+      "Superset 2: Pull-Ups + Bulgarian Split Squats – 3 x (10 Pull-Ups + 8 each leg)",
+      "Superset 3: Plank Rows + Jump Squats – 3 x (10 Rows + 10 Jumps)",
+      "Farmer's Carries: 3 rounds, 30 meters",
+      "Cooldown: 5 mins stretching and breath work"
+    ],
+    "difficulty": "Hard",
+    "slug": "spartan-superset"
+  },
+  {
+    "workoutTitle": "Tomb Raider Core Burner",
+    "character": "Lara Croft",
+    "workoutDescription": "Functional strength, core power, and agility like an adventurer on the move",
+    "text": [
+      "Warm-Up: Jump rope 2 mins + dynamic stretches",
+      "Hanging Leg Raises: 3 x 10",
+      "Push-Ups with Shoulder Taps: 3 x 12",
+      "Bulgarian Split Squats: 3 x 8 each leg",
+      "V-Ups: 3 x 15",
+      "Side Planks with Hip Lifts: 3 x 10 each side",
+      "Jump Lunges: 3 x 12",
+      "Cool Down: Stretch glutes, hip flexors, abs"
+    ],
+    "difficulty": "Medium",
+    "slug": "tomb-raider-core-burner"
+  },
+  {
+    "workoutTitle": "Blue Blur Speed Drills",
+    "character": "Sonic the Hedgehog",
+    "workoutDescription": "Speed, agility, and cardio to keep up with the fastest thing alive",
+    "text": [
+      "High Knees: 3 x 30 sec",
+      "Sprint Intervals: 6 rounds of 20 sec sprint / 40 sec walk",
+      "Skater Jumps: 3 x 15 each side",
+      "Plank Sprints: 3 x 20 sec",
+      "Broad Jumps: 3 x 8",
+      "Agility Ladder or Cone Drills: 10 minutes",
+      "Cooldown: Light jog + stretch"
+    ],
+    "difficulty": "Medium",
+    "slug": "blue-blur-speed-drills"
+  },
+  {
+    "workoutTitle": "Ryu Strength Kata",
+    "character": "Ryu",
+    "workoutDescription": "Discipline-focused strength, balance, and explosive power for martial arts conditioning",
+    "text": [
+      "Warm-Up: Dynamic stretches + deep breathing",
+      "Horse Stance Hold: 3 x 30 sec",
+      "Push-Ups: 4 x 10",
+      "Bodyweight Squats: 4 x 15",
+      "Reverse Lunges with Knee Drive: 3 x 10 each leg",
+      "Jumping Front Kicks (air): 3 x 10 each leg",
+      "Plank Hold with Fists: 3 x 45 sec",
+      "Cool Down: Slow breathing + static stretches"
+    ],
+    "difficulty": "Medium",
+    "slug": "ryu-strength-kata"
+  },
+    {
+    "workoutTitle": "Animal Crossing Chill Fit",
+    "character": "Villager",
+    "workoutDescription": "Gentle full-body movement for a peaceful island life",
+    "text": [
+      "Neck Circles: 2 x 10 each direction",
+      "Arm Circles: 2 x 15 forward/backward",
+      "Air Squats: 2 x 10",
+      "Wall Push-Ups: 2 x 12",
+      "Standing Knee Raises: 2 x 10 each side",
+      "Toe Touches: 2 x 15",
+      "Breathing + Stretching: 3 minutes"
+    ],
+    "difficulty": "Easy",
+    "slug": "animal-crossing-chill-fit"
+  },
+  {
+    "workoutTitle": "Kirby Core & Stretch",
+    "character": "Kirby",
+    "workoutDescription": "Light core work and body movement that even Kirby can float through",
+    "text": [
+      "Seated Torso Twists: 2 x 10 each side",
+      "Butterfly Stretch: 2 x 30 sec",
+      "Cat-Cow Stretch: 2 x 10",
+      "Glute Bridges: 2 x 12",
+      "Bird-Dogs: 2 x 10 each side",
+      "Side-Lying Leg Lifts: 2 x 10 each side",
+      "Child’s Pose + Deep Breathing: 2 mins"
+    ],
+    "difficulty": "Easy",
+    "slug": "kirby-core-and-stretch"
+  },
+  {
+    "workoutTitle": "Toad's Quick Start",
+    "character": "Toad",
+    "workoutDescription": "A short, low-impact routine for boosting energy without exhausting your mushrooms",
+    "text": [
+      "March in Place: 2 x 30 sec",
+      "Shoulder Rolls: 2 x 10 each way",
+      "Wall Sits: 2 x 20 sec",
+      "Toe Touches: 2 x 15",
+      "Standing Calf Raises: 2 x 12",
+      "Arm Swings: 2 x 15",
+      "Cool Down: Gentle walk or seated breathing"
+    ],
+    "difficulty": "Easy",
+    "slug": "toads-quick-start"
+  },
+  {
+    "workoutTitle": "Slime Stretch & Flow",
+    "character": "Dragon Quest Slime",
+    "workoutDescription": "Simple mobility and movement to keep your slime body bouncy and happy",
+    "text": [
+      "Neck Rolls: 2 x 10 each side",
+      "Arm Reach Stretch: 2 x 10",
+      "Hip Circles: 2 x 10 each direction",
+      "Seated Forward Fold: 2 x 30 sec",
+      "Standing Side Reaches: 2 x 10 each side",
+      "Deep Breathing: 1-2 minutes lying down or seated"
+    ],
+    "difficulty": "Easy",
+    "slug": "slime-stretch-and-flow"
+  },
+  {
+    "workoutTitle": "Cyber Ninja Conditioning",
+    "character": "Raiden",
+    "workoutDescription": "Speed, agility, and killer reflexes inspired by the cybernetic ninja from Metal Gear",
+    "text": [
+      "Warm-Up: Jump Rope or High Knees – 2 minutes",
+      "Shadow Sparring: 3 x 30 sec",
+      "Tuck Jumps: 3 x 10",
+      "Lateral Hops: 3 x 15 each side",
+      "Push-Ups with Knee Drive: 3 x 10",
+      "Side Plank Dips: 3 x 10 each side",
+      "Mountain Climbers: 3 x 30 sec",
+      "Cool Down: Deep quad and hamstring stretches"
+    ],
+    "difficulty": "Hard",
+    "slug": "cyber-ninja-conditioning"
+  },
+  {
+    "workoutTitle": "Vault Hunter Upper Body Blast",
+    "character": "Lilith",
+    "workoutDescription": "A punchy upper body workout designed to burn and build, inspired by the firehawk herself",
+    "text": [
+      "Dynamic Arm Circles: 2 x 10 each way",
+      "Push-Ups: 3 x 12",
+      "Inverted Rows or Bent-Over Rows: 3 x 10",
+      "Overhead Press (dumbbells or bands): 3 x 8",
+      "Tricep Dips: 3 x 10",
+      "Plank Shoulder Taps: 3 x 30 sec",
+      "Cooldown: Stretch chest, shoulders, triceps"
+    ],
+    "difficulty": "Medium",
+    "slug": "vault-hunter-upper-body-blast"
+  },
+  {
+    "workoutTitle": "Geralt's Witcher Training",
+    "character": "Geralt of Rivia",
+    "workoutDescription": "Mobility, raw strength, and combat readiness like a monster-slaying legend",
+    "text": [
+      "Warm-Up Flow: World's Greatest Stretch + Arm Swings – 3 minutes",
+      "Deadlifts (or backpack deadlifts): 4 x 5",
+      "Lunges with Rotation: 3 x 8 each side",
+      "Push-Up to Pike: 3 x 10",
+      "Pull-Ups or Towel Rows: 3 x max reps",
+      "Core Finisher: Hollow Body Hold – 3 x 30 sec",
+      "Cooldown: Deep hip openers + breathing"
+    ],
+    "difficulty": "Hard",
+    "slug": "geralts-witcher-training"
+  },
+  {
+    "workoutTitle": "Mega Buster Circuit",
+    "character": "Mega Man",
+    "workoutDescription": "A tech-inspired bodyweight circuit for fast, high-energy bursts of strength and endurance",
+    "text": [
+      "Warm-Up: Arm swings, jump rope – 2 mins",
+      "Push-Ups: 3 x 10",
+      "Jumping Lunges: 3 x 8 each leg",
+      "Plank to Push-Up: 3 x 12",
+      "Speed Skaters: 3 x 15 each side",
+      "Leg Raises: 3 x 12",
+      "High Knees: 3 x 30 sec sprint",
+      "Cooldown: Walk and light stretching"
+    ],
+    "difficulty": "Medium",
+    "slug": "mega-buster-circuit"
+  }
+
+]

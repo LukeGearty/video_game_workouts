@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Workouts</title>
+</head>
+<body>
+
+     <!-- The Workout Format
+
+            Title
+            Character Inspiration
+            Description
+            List of Exercises
+            Difficulty Level
+ -->        
+            
+    <div id="container">
+                <h1>Add Workout</h1>
+
+                <form>
+                    <label for="title">Title: </label><br>
+                    <input type="text" id="title" name="title"><br>
+                    <label for="character">Character Inspiration: </label><br>
+                    <input type="text" id="character" name="character"><br>
+                    <label for="description">Description: </label><br>
+                    <textarea id="description" name="description" rows="5" cols="40" placeholder="Describe the purpose of the workout here"></textarea><br>
+                    <label for="workout">Workout: </label><br>
+                    <textarea id="workout" name="workout" rows="10" cols="40" placeholder="Write the exercises of the workout here"></textarea><br>
+                    <p>Difficulty: </p>
+                    
+                    <input type="radio" id="easy" name="difficulty" value="Easy">
+                    <label for="easy">Easy</label><br>
+                    
+                    <input type="radio" id="medium" name="difficulty" value="Medium">
+                    <label for="medium">Medium</label><br>
+                    
+                    <input type="radio" id="hard" name="difficulty" value="Hard">
+                    <label for="hard">Hard</label><br>
+                    
+                    <button id="submit">Submit</button>
+                </form>
+
+                <div id="message" style="color: green; font-weight: bold; margin-bottom: 1rem;"></div>
+    </div>
+
+        
+            <script>
+                const subBtn = document.getElementById('submit');
+
+                subBtn.addEventListener("click", function(event) {
+                    event.preventDefault();
+
+
+                    const title = document.getElementById('title').value;
+                    const charInspo = document.getElementById('character').value;
+                    const description = document.getElementById('description').value;
+                    const workoutText = document.getElementById('workout').value;
+
+                    let difficulty = '';
+                    const difficultyRadios = document.getElementsByName('difficulty');
+                    
+                    for (let i = 0; i < difficultyRadios.length; i++) {
+                        if (difficultyRadios[i].checked) {
+                            difficulty = difficultyRadios[i].value;
+                            break;
+                        }
+                    }
+                    
+                const fullWorkout = {
+                    workoutTitle: title,
+                    character: charInspo,
+                    workoutDescription: description,
+                    text: workoutText.split('\n').filter(line => line.trim() != ''),
+                    difficulty: difficulty
+                };
+
+                // const workoutJSON = JSON.stringify(fullWorkout, null, 2);
+                // console.log("JSON string: ", workoutJSON);
+
+                fetch('http://localhost:3000/submit-workout', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(fullWorkout)
+                })
+
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Server response: ', data);
+                    const messageDiv = document.getElementById('message');
+                    messageDiv.textContent = 'Workout saved successfully!';
+                    document.querySelector('form').reset();
+
+                    setTimeout(() => {
+                        window.location.reload();
+                    }, 2000);
+                    
+                })
+                .catch(error => {
+                    console.error('Error sending workout: ', error);
+                })
+                });
+            
+            
+            </script>
+</body>
+</html>
